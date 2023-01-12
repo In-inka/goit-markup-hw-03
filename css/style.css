@@ -19,6 +19,22 @@ body {
   font-family: 'roboto', sans-serif;
   color: var(--text-color);
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+ul {
+  margin: 0;
+  padding-left: 0;
+}
+img {
+  display: block;
+}
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -33,9 +49,11 @@ body {
   overflow: hidden;
 }
 .conteiner {
-  width: 1152px;
-  padding-right: 12px;
-  padding-left: 12px;
+  width: 1158px;
+  padding-right: 15px;
+  padding-left: 15px;
+  outline: 1px solid teal;
+  margin: 0 auto;
 }
 .list {
   list-style: none;
@@ -69,6 +87,11 @@ body {
 }
 
 /*-----------header--------------*/
+.header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid var(--accent-color);
+}
 .header-nav {
 }
 .logo {
@@ -109,9 +132,10 @@ body {
 .hero {
   background-color: var(--dark-color);
   text-align: center;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 .hero-title {
-  outline: 1px solid teal;
   margin-top: 0;
   margin-bottom: 48px;
   font-size: 56px;
@@ -133,6 +157,8 @@ body {
 }
 /*----------------features-------------*/
 .features {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .features-list {
 }
@@ -140,11 +166,13 @@ body {
 }
 .features-subtitle {
   color: var(--dark-color);
+  margin-bottom: 8px;
 }
 .features-text {
 }
 /*----------------picture-------------*/
 .pic {
+  padding-bottom: 120px;
 }
 .pic-title {
   font-size: 36px;
@@ -152,6 +180,7 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--dark-color);
+  margin-bottom: 32px;
 }
 .pic-list {
 }
@@ -160,9 +189,19 @@ body {
 /*----------------cards-------------*/
 .cards {
   background-color: var(--light-color);
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.cards-title {
+  margin-bottom: 72px;
+}
+.cards-block {
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .cards-subtitle {
   color: var(--dark-color);
+  margin-bottom: 8px;
 }
 .cards-list {
 }
@@ -171,15 +210,19 @@ body {
 /*----------------footer-------------*/
 .footer {
   background-color: var(--dark-color);
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 .footer-logo {
   line-height: 1.16;
+  margin-bottom: 16px;
 }
 .footer-studio {
   color: var(--light-color);
 }
 .footer-text {
   color: var(--accent-color);
+  max-width: 264px;
 }
 /*----------------PORTFOLIO-------------*/
 .main {
