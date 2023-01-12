@@ -243,6 +243,8 @@ img {
 .menu-block {
   padding-top: 32px;
   padding-bottom: 32px;
+  border: 1px solid var(--accent-color);
+  border-top: transparent;
 }
 .main-btn:hover,
 .main-btn:focus {
