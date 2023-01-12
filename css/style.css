@@ -215,6 +215,7 @@ img {
 }
 .footer-logo {
   line-height: 1.16;
+  display: inline-block;
   margin-bottom: 16px;
 }
 .footer-studio {
@@ -226,6 +227,8 @@ img {
 }
 /*----------------PORTFOLIO-------------*/
 .main {
+  padding-top: 96px;
+  padding-bottom: 120px;
 }
 .main-menu {
 }
@@ -233,6 +236,13 @@ img {
   color: var(--primary-brend-color);
   background-color: var(--light-color);
   border: 1px solid #e7e9fc;
+  text-align: center;
+  padding: 12px 24px;
+  margin-bottom: 72px;
+}
+.menu-block {
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .main-btn:hover,
 .main-btn:focus {
@@ -245,6 +255,7 @@ img {
 }
 .main-subtitle {
   color: var(--dark-color);
+  margin-bottom: 8px;
 }
 .main-text {
 }
