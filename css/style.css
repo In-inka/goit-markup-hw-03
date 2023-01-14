@@ -66,6 +66,15 @@ a {
 .link {
   text-decoration: none;
 }
+.title {
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--dark-color);
+  margin-bottom: 72px;
+  text-align: center;
+}
 .subtitle {
   font-weight: 500;
   font-size: 20px;
@@ -98,8 +107,6 @@ a {
   display: flex;
 }
 .header {
-  padding-top: 24px;
-  padding-bottom: 24px;
   border-bottom: 1px solid var(--accent-color);
 }
 .header-nav {
@@ -121,6 +128,8 @@ a {
   color: var(--primary-brend-color);
   text-decoration: none;
   margin-right: 77px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .nav-studio {
   color: var(--dark-color);
@@ -136,6 +145,8 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--dark-color);
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .header-list .link:hover,
 .header-list .link:focus {
@@ -146,6 +157,8 @@ a {
 }
 .header-contact .link {
   color: var(--text-color);
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .header-contact .link:hover,
 .header-contact .link:focus {
@@ -202,13 +215,6 @@ a {
   padding-top: 0;
 }
 .pic-title {
-  font-size: 36px;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: var(--dark-color);
-  margin-bottom: 32px;
-  text-align: center;
 }
 .pic-list {
   display: flex;
@@ -224,8 +230,6 @@ a {
   background-color: var(--light-color);
 }
 .cards-title {
-  margin-bottom: 72px;
-  text-align: center;
 }
 .cards-block {
   padding-top: 32px;
