@@ -127,6 +127,7 @@ img {
   margin-right: 77px;
   padding-top: 24px;
   padding-bottom: 24px;
+  display: block;
 }
 .nav-studio {
   color: var(--dark-color);
@@ -157,6 +158,7 @@ img {
   color: var(--text-color);
   padding-top: 24px;
   padding-bottom: 24px;
+  display: block;
 }
 .header-contact .link:hover,
 .header-contact .link:focus {
