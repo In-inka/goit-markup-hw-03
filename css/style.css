@@ -58,9 +58,6 @@ a {
   padding-left: 15px;
   margin: 0 auto;
 }
-.section {
-  padding: 24px 156px 100px 156px;
-}
 .list {
   list-style: none;
   padding: 0;
@@ -90,6 +87,10 @@ a {
   border-radius: 4px;
   display: inline-block;
   border: 1px solid transparent;
+}
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 /*-----------header--------------*/
@@ -181,8 +182,6 @@ a {
 }
 /*----------------features-------------*/
 .features {
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 .features-list {
   display: flex;
@@ -200,7 +199,7 @@ a {
 }
 /*----------------picture-------------*/
 .pic {
-  padding-bottom: 120px;
+  padding-top: 0;
 }
 .pic-title {
   font-size: 36px;
@@ -221,8 +220,6 @@ a {
 /*----------------cards-------------*/
 .cards {
   background-color: var(--light-color);
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 .cards-title {
   margin-bottom: 72px;
@@ -271,7 +268,6 @@ a {
 /*----------------PORTFOLIO-------------*/
 .main {
   padding-top: 96px;
-  padding-bottom: 120px;
 }
 .main-list {
   display: flex;
