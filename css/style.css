@@ -235,7 +235,7 @@ img {
   justify-content: space-between;
 }
 .pic-item {
-  flex-basis: calc(100% / 3 - 24px);
+  flex-basis: calc((100% - 42px) / 3);
 }
 /*----------------cards-------------*/
 .cards {
@@ -259,7 +259,7 @@ img {
   justify-content: space-between;
 }
 .cards-list > li {
-  flex-basis: calc(100% / 4 - 24px);
+  flex-basis: calc((100% - 72px) / 4);
 
   background: var(--white-color);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
@@ -334,7 +334,7 @@ img {
 .main-list {
 }
 .main-list > .main-item {
-  flex-basis: calc(100% / 3 - 24px);
+  flex-basis: calc((100% - 72px) / 3);
 }
 .main-subtitle {
   color: var(--dark-color);
