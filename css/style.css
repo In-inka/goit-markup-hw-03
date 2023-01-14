@@ -36,7 +36,9 @@ img {
   display: block;
   min-width: 100%;
 }
-
+a {
+  display: block;
+}
 .visually-hidden {
   position: absolute;
   width: 1px;
